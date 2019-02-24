@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: grey;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 14px;
+  line-height: inherit;
+}
+
+.header {
+  display: inline-block;
+  padding: 3px;
+  color: #499CCB;
+}
+
+.title {
+  width: 40%;
+}
+
+.arrowLeft {
+  width: 10%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  background-color: #D8D8D8;
+}
+
+.location {
+  margin: 1px auto;
+  padding: 5px 5px 5px 5px;
+  border-width: 1px;
+  border-top: 1px solid #F5F2F2;
+  background-color: white;
+  height: 76px;
+}
+
+nav {
+  margin: 0 auto;
+  position: fixed;
+  width: 420px;
+  background-color: #F5F2F2;
+}
+
+.busList {
+  padding-top: 50px;
+  background-color: #F5F2F2;
+}
+
+.content {
+  display: inline-block;
+  width: 90%;
+  padding: 3px;
+}
+
+.arrow {
+  margin: 1px auto;
+  padding: 5px 2px 5px 5px;
+  display: inline-block;
+  float:right;
+  color: #8FB89F;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 17px;
+  color: black;
+}
+
+h3 {
+  font-size: 14px;
+  color: #8FB89F;
+}
+
+h4 {
+  font-size: 17px;
+  color: #499CCB;
+}
+
+h5 {
+  font-size: 23px;
+  font-color: black;
+  float: right;
+  text-align: right;
+}
