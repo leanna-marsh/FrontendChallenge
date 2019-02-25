@@ -11,27 +11,36 @@ body {
   line-height: inherit;
 }
 
-.header {
-  display: inline-block;
-  padding: 3px;
-  color: #499CCB;
+img {
+  width: 420px;
 }
 
 .title {
-  width: 40%;
+  display: inline-block;
+  width: 50%;
 }
 
 .arrowLeft {
-  width: 10%;
+  display: inline-block;
+  float: left;
+  width: 7%;
+  color: #499CCB;
+}
+
+.backArrow {
+  display: inline-block;
+  float: left;
+  margin: 1px;
+  width: 15%;
 }
 
 .container {
   margin: 0 auto;
   width: 420px;
-  background-color: #D8D8D8;
 }
 
 .location {
+  width: 420px;
   margin: 1px auto;
   padding: 5px 5px 5px 5px;
   border-width: 1px;
@@ -40,8 +49,11 @@ body {
   height: 76px;
 }
 
+.rightSide {
+  float: right;
+}
+
 nav {
-  margin: 0 auto;
   position: fixed;
   width: 420px;
   background-color: #F5F2F2;
@@ -50,20 +62,26 @@ nav {
 .busList {
   padding-top: 50px;
   background-color: #F5F2F2;
+  display: inline-block;
+  width: 420px;
 }
 
 .content {
   display: inline-block;
-  width: 90%;
+  width: 70%;
   padding: 3px;
 }
 
-.arrow {
-  margin: 1px auto;
-  padding: 5px 2px 5px 5px;
+.time {
   display: inline-block;
-  float:right;
+  padding: 15px 4px 1px 0px;
+}
+
+.arrow {
   color: #8FB89F;
+  display: inline-block;
+  float: right;
+  padding: 20px 1px 1px 1px;
 }
 
 h1 {
@@ -89,7 +107,6 @@ h4 {
 
 h5 {
   font-size: 23px;
-  font-color: black;
-  float: right;
+  color: black;
   text-align: right;
 }
