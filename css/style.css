@@ -7,7 +7,6 @@ body {
   box-sizing: border-box;
   background-color: grey;
   font-family: 'Saira Semi Condensed', sans-serif;
-  font-size: 14px;
   line-height: inherit;
 }
 
@@ -18,11 +17,13 @@ img {
 .title {
   display: inline-block;
   width: 50%;
+  height: 40px;
 }
 
 .arrowLeft {
   display: inline-block;
   float: left;
+  padding-left: 10px;
   width: 7%;
   color: #499CCB;
 }
@@ -32,35 +33,49 @@ img {
   float: left;
   margin: 1px;
   width: 15%;
+  padding-left: 10px;
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0px auto;
   width: 420px;
 }
 
-.location {
+.upcoming {
+  font-size: 16px;
+  color: #777777;
+  background-color: white;
+  position: fixed;
   width: 420px;
-  margin: 1px auto;
-  padding: 5px 5px 5px 5px;
+  height: 30px;
+  padding-left: 3px;
   border-width: 1px;
   border-top: 1px solid #F5F2F2;
+  border-bottom: 1px solid #F5F2F2;
+  padding-left: 10px;
+}
+
+.location {
+  top: 93px;
+  width: 420px;
+  border-width: 1px;
+  border-top: 1px solid #F8F8F8;
   background-color: white;
-  height: 76px;
 }
 
 .rightSide {
   float: right;
 }
 
-nav {
+.header {
   position: fixed;
   width: 420px;
-  background-color: #F5F2F2;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #F8F8F8;
 }
 
 .busList {
-  padding-top: 50px;
+  padding-top: 92px;
   background-color: #F5F2F2;
   display: inline-block;
   width: 420px;
@@ -69,7 +84,7 @@ nav {
 .content {
   display: inline-block;
   width: 70%;
-  padding: 3px;
+  padding: 0px 0px 0px 10px;
 }
 
 .time {
@@ -81,12 +96,13 @@ nav {
   color: #8FB89F;
   display: inline-block;
   float: right;
-  padding: 20px 1px 1px 1px;
+  padding: 20px 10px 1px 1px;
 }
 
 h1 {
   font-size: 25px;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 h2 {
@@ -103,6 +119,7 @@ h3 {
 h4 {
   font-size: 17px;
   color: #499CCB;
+  padding-bottom: 10px;
 }
 
 h5 {
