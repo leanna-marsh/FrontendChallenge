@@ -24,16 +24,15 @@ img {
   display: inline-block;
   float: left;
   padding-left: 10px;
-  width: 7%;
+  width: 6.5%;
   color: #499CCB;
+  margin-top: 1px;
 }
 
 .backArrow {
   display: inline-block;
   float: left;
-  margin: 1px;
-  width: 15%;
-  padding-left: 10px;
+  width: 20%;
 }
 
 .container {
@@ -64,6 +63,7 @@ img {
 }
 
 .rightSide {
+  margin-top: 8px;
   float: right;
 }
 
@@ -89,14 +89,14 @@ img {
 
 .time {
   display: inline-block;
-  padding: 15px 4px 1px 0px;
+  padding: 15px 6px 1px 0px;
 }
 
 .arrow {
   color: #8FB89F;
   display: inline-block;
   float: right;
-  padding: 20px 10px 1px 1px;
+  padding: 22px 10px 1px 1px;
 }
 
 h1 {
