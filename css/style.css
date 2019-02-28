@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
   box-sizing: border-box;
   background-color: grey;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: inherit;
 }
 
@@ -17,7 +17,8 @@ img {
 .title {
   display: inline-block;
   width: 50%;
-  height: 40px;
+  height: 35px;
+  margin-top: 4px;
 }
 
 .arrowLeft {
@@ -26,18 +27,19 @@ img {
   padding-left: 10px;
   width: 6.5%;
   color: #499CCB;
-  margin-top: 1px;
+  margin-top: 4px;
 }
 
 .backArrow {
   display: inline-block;
   float: left;
   width: 20%;
+  margin-top: 4px;
 }
 
 .container {
   margin: 0px auto;
-  width: 420px;
+  max-width: 420px;
 }
 
 .upcoming {
@@ -47,11 +49,11 @@ img {
   position: fixed;
   width: 420px;
   height: 30px;
-  padding-left: 3px;
+  padding-left: 10px;
   border-width: 1px;
   border-top: 1px solid #F5F2F2;
   border-bottom: 1px solid #F5F2F2;
-  padding-left: 10px;
+  padding-top: 4px;
 }
 
 .location {
@@ -60,10 +62,11 @@ img {
   border-width: 1px;
   border-top: 1px solid #F8F8F8;
   background-color: white;
+  height: 70px;
 }
 
 .rightSide {
-  margin-top: 8px;
+  margin-top: 14px;
   float: right;
 }
 
@@ -84,30 +87,29 @@ img {
 .content {
   display: inline-block;
   width: 70%;
-  padding: 0px 0px 0px 10px;
+  padding: 7px 0px 10px 10px;
 }
 
 .time {
   display: inline-block;
-  padding: 15px 6px 1px 0px;
+  padding: 13px 6px 1px 2px;
 }
 
 .arrow {
   color: #8FB89F;
   display: inline-block;
   float: right;
-  padding: 22px 10px 1px 1px;
+  padding: 15px 10px 1px 1px;
 }
 
 h1 {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 21px;
   padding-top: 10px;
 }
 
 h2 {
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
 }
 
@@ -117,13 +119,13 @@ h3 {
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 15px;
   color: #499CCB;
   padding-bottom: 10px;
 }
 
 h5 {
-  font-size: 23px;
+  font-size: 18.5px;
   color: black;
   text-align: right;
 }
